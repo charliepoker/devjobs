@@ -1,0 +1,99 @@
+@import "../../variables";
+
+
+.header {
+  background: $voiletColor;
+  background: linear-gradient($voiletColor 80%, $whiteColor 0);
+  overflow: hidden;
+  position: relative;
+
+  &__top {
+    position: absolute;
+    top: -495px;
+    right: 125px;
+    transform: rotate(7deg);
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+
+  &__bottom {
+    position: absolute;
+    top: -90px;
+    left: -250px;
+    width: 40%;
+    height: 100%;
+    z-index: 0;
+    display: none;
+  }
+}
+
+.navbar__mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 24px 50px 24px;
+
+  &-logo {
+    width: 115px;
+    height: 32px;
+  }
+
+  &-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  }
+
+  &-icon {
+    background: $whiteColor;
+    width: 48px;
+    height: 24px;
+    border-radius: 12px;
+    margin: 0 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2px;
+
+    &-switch {
+      background: $voiletColor;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+    }
+  }
+}
+
+.form {
+  padding: 0 24px;
+  margin: 0 auto;
+  background: $whiteColor;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px #00000010;
+  border-radius: 6px;
+
+  &__input {
+    width: 60%;
+    height: 80px;
+    border: none;
+    outline: none;
+    background: $whiteColor;
+    color: $darkBlue;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: $Kumbh;
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  &__search {
+    background: $voiletColor;
+    padding: 14px;
+    border-radius: 5px;
+  }
+}

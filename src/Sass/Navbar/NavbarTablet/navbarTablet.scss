@@ -1,0 +1,145 @@
+@import "../../variables";
+
+.navbar__tablet {
+  background: $voiletColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 5% 100px 5%;
+  border-radius: 0px 0px 0px 100px;
+  position: relative;
+
+  &-logo {
+    width: 115px;
+    height: 32px;
+  }
+
+  &-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  }
+
+  &-icon {
+    background: $whiteColor;
+    width: 48px;
+    height: 24px;
+    border-radius: 12px;
+    margin: 0 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2px;
+
+    &-switch {
+      background: $voiletColor;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+
+    &-container {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      background: $whiteColor;
+      height: 80px;
+      width: 100%;
+      border-right: 2px solid $darkgrayColor;
+    }
+
+    &-search img {
+      margin-left: 30px;
+      width: 24px;
+      height: 24px;
+    }
+
+    &-location img {
+      margin-left: 30px;
+      top: 30px;
+      width: 17px;
+      height: 24px;
+    }
+
+    &-btn button {
+      background: $voiletColor;
+      color: $whiteColor;
+      border-radius: 5px;
+      border: none;
+      padding: 20px 15px;
+      font-family: $Kumbh;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    &-input input {
+      height: 80px;
+      width: 100%;
+      padding-left: 20px;
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        color: $darkBlue;
+        font-family: $Kumbh;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+
+    &-container1 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 80px;
+      width: 100%;
+      background: $whiteColor;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+
+      & label {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: $Kumbh;
+        color: $darkBlue;
+        margin-right: 20px;
+      }
+    }
+
+    &-checkbox input {
+      margin: 0 20px;
+      width: 24px;
+      height: 24px;
+      background: $darkBlue;
+      border-radius: 3px;
+      border: none;
+    }
+  }
+
+  &__form form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    margin: 0 5%;
+    width: 100%;
+  }
+}
+
+.first-input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
