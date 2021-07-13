@@ -5,9 +5,9 @@ import "./Sass/base.css";
 function App() {
   return (
     <div>
-      {/* <NavbarMobile /> */}
+      <NavbarMobile />
       {/* <NavbarTablet /> */}
-      <NavbarDesktop />
+      {/* <NavbarDesktop /> */}
     </div>
   );
 }

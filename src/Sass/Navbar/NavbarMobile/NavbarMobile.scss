@@ -1,9 +1,8 @@
 @import "../../variables";
 
-
 .header {
   background: $voiletColor;
-  background: linear-gradient($voiletColor 80%, $whiteColor 0);
+  background: linear-gradient($voiletColor 80%, $bodyColor 0);
   overflow: hidden;
   position: relative;
 
