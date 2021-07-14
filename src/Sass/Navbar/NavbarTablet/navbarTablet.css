@@ -72,6 +72,9 @@
   font-size: 16px;
   cursor: pointer;
 }
+.navbar__tablet__form-btn button:hover {
+  background: #939bf4;
+}
 .navbar__tablet__form-input input {
   height: 80px;
   width: 100%;

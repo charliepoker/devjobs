@@ -1,0 +1,13 @@
+.load {
+  background: #5964e0;
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+@import "../variables";
+
+.load {
+  background: $voiletColor;
+  color: $whiteColor;
+  font-family: $Kumbh;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  cursor: pointer;
+}
