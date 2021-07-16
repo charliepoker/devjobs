@@ -1,0 +1,154 @@
+.detail__card {
+  position: absolute;
+  background: #ffffff;
+  width: 90%;
+  margin: 50px 20px 0 20px;
+  padding: 50px 30px 30px 30px;
+  border-radius: 6px;
+  text-align: center;
+  top: 25px;
+}
+.detail__card-logo {
+  position: absolute;
+  top: -25px;
+  left: 43%;
+  width: 50px;
+  height: 50px;
+  background: #e99210;
+  border-radius: 15px;
+}
+.detail__card h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #19202d;
+  margin-bottom: 18px;
+}
+.detail__card p {
+  color: #6e8098;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+
+.main__detail {
+  background: #ffffff;
+  width: 90%;
+  margin: 200px 20px 100px 20px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 6px;
+}
+.main__detail-time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.main__detail-time p {
+  color: #6e8098;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 10px;
+}
+.main__detail-dot {
+  width: 4px;
+  height: 4px;
+  background: #6e8098;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.main__detail-role h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #19202d;
+  margin-bottom: 15px;
+}
+.main__detail-location p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #5964e0;
+  margin-bottom: 50px;
+}
+.main__detail-para p {
+  margin-top: 30px;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6e8098;
+}
+.main__detail-requirement {
+  margin: 30px 0;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6e8098;
+}
+.main__detail-requirement h4 {
+  color: #19202d;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.main__detail-requirement p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.main__detail-requirement ul {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+.main__detail-requirement ul li {
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 90%;
+}
+.main__detail-description {
+  margin: 30px 0;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6e8098;
+}
+.main__detail-description h4 {
+  color: #19202d;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.main__detail-description p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.main__detail-description ol {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+.main__detail-description ol li {
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 90%;
+}
+.main__detail-footer {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

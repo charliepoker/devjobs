@@ -13,3 +13,32 @@
   padding: 20px 35px;
   cursor: pointer;
 }
+
+.detail__card-btn {
+  background: $voiletColor(10);
+  border-radius: 5px;
+  font-family: $Kumbh;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  color: $voiletColor;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.apply-btn {
+  background: $voiletColor;
+  color: $whiteColor;
+  font-family: $Kumbh;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 45px;
+  cursor: pointer;
+  width: 100%;
+}
