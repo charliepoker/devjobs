@@ -1,2 +1,192 @@
+.tablet__detail__card {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  width: 90%;
+  height: 140px;
+  border-radius: 6px;
+}
+.tablet__detail__card-profile {
+  display: flex;
+  justify-content: space-start;
+  align-items: center;
+}
+.tablet__detail__card-logo {
+  width: 140px;
+  height: 140px;
+  background: #e99210;
+  margin-right: 50px;
+}
+.tablet__detail__card-name h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #19202d;
+  margin-bottom: 18px;
+}
+.tablet__detail__card-name p {
+  color: #6e8098;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.tablet__detail__card-btn {
+  margin-left: 300px;
+}
 
-/*# sourceMappingURL=detailTablet.css.map */
+.tablet__detail__main {
+  background: #ffffff;
+  width: 90%;
+  margin: 130px auto 0;
+  padding: 30px 4%;
+  border-radius: 6px;
+}
+.tablet__detail__main-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tablet__detail__main-headerbtn {
+  margin-left: auto;
+}
+.tablet__detail__main-time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tablet__detail__main-time p {
+  color: #6e8098;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.tablet__detail__main-dot {
+  width: 4px;
+  height: 4px;
+  background: #6e8098;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.tablet__detail__main-role h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #19202d;
+  margin-bottom: 20px;
+}
+.tablet__detail__main-location p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #5964e0;
+}
+
+.tablet__detail__main-para p {
+  margin-top: 50px;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6e8098;
+}
+.tablet__detail__main-requirement {
+  margin: 30px 0;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6e8098;
+}
+.tablet__detail__main-requirement h4 {
+  color: #19202d;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.tablet__detail__main-requirement p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.tablet__detail__main-requirement ul {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+.tablet__detail__main-requirement ul li {
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 90%;
+}
+.tablet__detail__main-description {
+  margin: 30px 0;
+  text-align: left;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6e8098;
+}
+.tablet__detail__main-description h4 {
+  color: #19202d;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.tablet__detail__main-description p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.tablet__detail__main-description ol {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+.tablet__detail__main-description ol li {
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 90%;
+}
+
+.tablet__footer {
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+  padding: 30px 5%;
+  margin-top: 30px;
+}
+.tablet__footer-role h2 {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #19202d;
+  padding-bottom: 10px;
+}
+.tablet__footer-role p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #6e8098;
+}
+.tablet__footer-btn {
+  margin-left: auto;
+}

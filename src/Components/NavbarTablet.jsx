@@ -26,7 +26,7 @@ function NavbarTablet() {
         </div>
       </div>
 
-      <div className="navbar__tablet__form">
+      {/* <div className="navbar__tablet__form">
         <form action="">
           <div className="navbar__tablet__form-container first-input">
             <div className="navbar__tablet__form-search">
@@ -61,7 +61,7 @@ function NavbarTablet() {
             </div>
           </div>
         </form>
-      </div>
+      </div> */}
     </>
   );
 }

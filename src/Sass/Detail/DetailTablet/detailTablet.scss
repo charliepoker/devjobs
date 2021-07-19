@@ -1,1 +1,221 @@
-@import "../../variables"
+@import "../../variables";
+
+.tablet__detail__card {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $whiteColor;
+  width: 90%;
+  height: 140px;
+  border-radius: 6px;
+
+  &-profile {
+    display: flex;
+    justify-content: space-start;
+    align-items: center;
+  }
+
+  &-logo {
+    width: 140px;
+    height: 140px;
+    background: #e99210;
+    margin-right: 50px;
+  }
+
+  &-name h4 {
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: $darkBlue;
+    margin-bottom: 18px;
+  }
+
+  &-name p {
+    color: $darkgrayColor;
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  &-btn {
+    margin-left: 300px;
+  }
+}
+
+.tablet__detail__main {
+  background: $whiteColor;
+  width: 90%;
+  margin: 130px auto 0;
+  padding: 30px 4%;
+  border-radius: 6px;
+
+  &-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &-headerbtn {
+    margin-left: auto;
+  }
+
+  &-time {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & p {
+      color: $darkgrayColor;
+      font-family: $Kumbh;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &-dot {
+    width: 4px;
+    height: 4px;
+    background: $darkgrayColor;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  &-role h2 {
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: $darkBlue;
+    margin-bottom: 20px;
+  }
+
+  &-location p {
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: $voiletColor;
+  }
+}
+
+.tablet__detail__main {
+  &-para p {
+    margin-top: 50px;
+    text-align: left;
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $darkgrayColor;
+  }
+
+  &-requirement {
+    margin: 30px 0;
+    text-align: left;
+    font-family: $Kumbh;
+    color: $darkgrayColor;
+
+    & h4 {
+      color: $darkBlue;
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    & p {
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+
+    & ul {
+      padding-left: 18px;
+      margin-bottom: 30px;
+
+      & li {
+        line-height: 26px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 90%;
+      }
+    }
+  }
+
+  &-description {
+    margin: 30px 0;
+    text-align: left;
+    font-family: $Kumbh;
+    color: $darkgrayColor;
+
+    & h4 {
+      color: $darkBlue;
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    & p {
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+
+    & ol {
+      padding-left: 18px;
+      margin-bottom: 30px;
+
+      & li {
+        line-height: 26px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 90%;
+      }
+    }
+  }
+}
+
+.tablet__footer {
+  background: $whiteColor;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+  padding: 30px 5%;
+  margin-top: 30px;
+
+  &-role h2 {
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: $darkBlue;
+    padding-bottom: 10px;
+  }
+
+  &-role p {
+    font-family: $Kumbh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: $darkgrayColor;
+  }
+
+  &-btn {
+    margin-left: auto;
+  }
+}

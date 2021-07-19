@@ -34,7 +34,7 @@ function NavbarMobile() {
             </div>
           </div>
         </div>
-        {/* <form className="form">
+        <form className="form">
           <input
             className="form__input"
             type="text"
@@ -42,7 +42,7 @@ function NavbarMobile() {
           />
           <img className="form__filter" src={Filter} alt="filter icon" />
           <img className="form__search" src={Search} alt="search icon" />
-        </form> */}
+        </form>
       </div>
     </>
   );
